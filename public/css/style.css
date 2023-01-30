@@ -1,0 +1,223 @@
+.cointainer{
+    margin-left: 40px;
+    margin-top: 30px; 
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+}
+.liitem{
+    margin-left: 55%;
+
+}
+.liitem li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+
+a{    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+nav li:last-child a{
+    background-color: rgb(255, 60, 0);
+}
+.lastli a{
+    display: block;
+    width: 60px;
+    height: 27px;
+    text-align: center;
+    border-radius: 25px;
+}
+nav a:hover{
+    color: rgb(255, 60, 0);
+    transition: all 0.5s;
+}
+.herotext{
+    font-size: 40px;
+}
+
+.heroimg img{
+    height:400px;
+    width: 550px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.subtitle{
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+.herobutton{
+    height: 40px;
+    width: 120px;
+    background-color:orange;
+    color:white;
+    border-radius: 25px;
+    border: tomato;
+}
+.herobutton:hover{
+  background-color: rgb(255, 102, 0);
+  color: white;
+  transition: all 0.5s;
+}
+.menuimg{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.menuitem{
+    display: flex;
+}
+.pricesection{
+    display: flex;
+}
+.menusec{
+    display: flex;
+}
+.hero{
+    background-color: rgb(240, 223, 223);
+    height: 450px;
+}
+.menubutton button{
+    margin-left: 7rem;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 0%;
+}
+.price{
+    margin-top: 10px;
+}
+.btn{
+    border-radius: 25px;
+    background-color: white;
+    border-color: orange;
+    color: orange;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+    transition: all 0.5s;
+}
+.menu1{
+    margin-top: 30px;
+}
+.small{
+    display: block;
+    border: 1px solid black;
+    height: 20px;
+    width: 60px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(230, 212, 212);
+}
+.empty-cart{
+    background-color: rgb(240, 223, 223);
+
+}
+.emptytext{
+    text-align: center;
+    margin-top: 20px;
+}
+.emptypara{
+    text-align: center;
+}
+.emptyimg{
+    text-align: center;
+}
+.emptyimg img{
+    height: 350px;
+    width: 400px;
+
+}
+.emptybutton{
+  text-align: center;
+  margin-top: 10px;
+}
+.order span{
+    margin-right: 20px;
+}
+.order{
+    padding-top: 3%;
+    padding-left: 30%;
+}
+hr{
+    width: 70%;
+}
+.order-detail{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pizza-price{
+    margin-left: 20%;
+    padding-top: 3%;
+}
+.pizza-no{
+    margin-left: 10%;
+    padding-top: 3%;
+
+}
+.order-img{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+}
+.amount-detail{
+    margin-left: 48%;
+}
+.amount{
+    color: rgb(223, 59, 9);
+}
+.address-detail{
+    margin-left:40%;
+    width:30%;
+    margin-top: 20px;
+}
+.login{
+    margin-top: 50px;
+    background-color: rgb(230, 212, 212);
+
+}
+.form{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.create{
+    text-align: center;
+    padding-top: 10px;
+}
+.create a:hover{
+  color:black;
+  border-bottom: 1px solid orangered;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }

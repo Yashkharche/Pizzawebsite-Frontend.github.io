@@ -1,0 +1,78 @@
+<%- include("partials/header") %>
+<section class="hero">
+    <div class="cointainer flex hero"> 
+        <div class="subtitle">
+            <h6><strong>Are you hungry?</strong></h6>
+         <p class="herotext"><em>Dont wait</em></p>
+         <button class="herobutton">Order Now</button>
+         
+        </div>
+        <div class="heroimg">
+            <img src="/img/hero-pizza.png" alt="">
+            
+        </div>
+    </div>
+</section>  
+<section class="menu cointainer" id="menulist">
+    <h4 class="textmenu">All pizzas</h4>
+    <div class="row menu1">
+      <% pizzas.forEach(function(pizza){ %>
+        <div class="col-lg-3">
+            
+          <div class="card" style="width: 18rem;">
+                  <img src="img/<%= pizza.image %>" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="title"><div>
+                        <h5 class="card-title"><%= pizza.name %></h5>
+                        <h4 class="small"><%= pizza.size %></h4>
+  
+                      </div>
+  
+                    <div class="menusec">
+                        <div class="price">
+                            <h6>Rs.<%= pizza.price %></h6>
+                        </div>
+                        <div class="menubutton">
+                          <button data-pizza=<%=JSON.stringify(pizza) %> type="button" class="add-to-cart btn btn-primary"><p>+add</p></button>
+  
+                        </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+           </div>
+     <% }) %>   
+  
+ 
+    </div>
+    <!-- <div class="row">
+        <div class="col-lg-3">
+           <div class="card" style="width: 18rem;">
+               <img src="img/piz1.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Margherita</h5>
+                 <h4 class="small">Medium</h4>
+
+                 <div class="menusec">
+                     <div class="price">
+                         <h6>Rs.300</h6>
+                     </div>
+                     <div class="menubutton">
+                       <button type="button" class="btn btn-primary"><p>+add</p></button>
+
+                     </div>
+                 </div>
+               </div>
+             </div>
+       </div>
+    
+   </div> -->
+</section>
+
+
+
+<%- include("partials/footer") %>
+
+
+
+
